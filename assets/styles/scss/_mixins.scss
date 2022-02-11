@@ -1,0 +1,6 @@
+// centrer un(des) bloc(s)
+@mixin centrerBloc () {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- favicon page -->
+        <link rel="icon" type='image/png' href="assets/images/logo-contrex-green.png" sizes="32x32">
+        <!-- swiper cdn style -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <!-- style main.css -->
+        <link rel="stylesheet" href="assets/styles/css/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="header__container">
+                <img src="assets/images/bgd-header-mobile.png" alt="" class="image-mob">
+                <img src="assets/images/bgd-header-full.png" alt="" class="image-desk">
+
+                <div class="header__contents">
+                    <div class="header__logo">
+                        <img src="assets/images/logo-contrex-green.png" alt="">
+                    </div>
+                    <p class="header__description bold">Découvrez nos délicieuses boissons bio et faibles en sucres</p>
+
+                    <div class="bloc1 hidden">
+                        <p class="header__offre">
+                            — <span class="exclu bold">Offre exclusive</span> —
+                            <br>
+                            <span class="bold bon-reduc">
+                                Bon de réduction de 0,35 €
+                            </span>
+                            <br>
+                            sur un produit de la gamme Contrex® Green*
+                        </p>
+                        <a href="#">J'en profite</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloc2">
+                <p class="header__offre">
+                    — <span class="exclu bold">Offre exclusive</span> —
+                    <br>
+                    <span class="bold bon-reduc">
+                        Bon de réduction de 0,35 €
+                    </span>
+                    <br>
+                    sur un produit de la gamme Contrex® Green*
+                </p>
+                <a href="#">J'en profite</a>
+            </div>
+        </header>
+
+        <main>
+            <!-- présentation du produit -->
+            <section class="content">
+                <p class="content__catch-word bold">
+                    <span>Évadez-vous</span>
+                </p>
+                <h2 class="content__title">
+                    Contrex® Green
+                    <br>
+                    <span class="bold color__theme">
+                        Infusion de maté
+                    </span>
+                </h2>
+                <p class="content__description">Découvrez le goût unique du maté dans de délicieuses boissons certifiées bio et sans édulcorant, sans conservateur, sans colorant</p>
+            </section>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide order1">
+                        <img src="assets/images/mate2.png" alt="">
+                        <p class="saveur__citron">
+                            Infusion de maté
+                            <br>
+                            <span class="bold">
+                                Saveur citron
+                                <br>
+                                Citron vert
+                            </span>
+                        </p>
+                    </div>
+                    <div class="swiper-slide order2">
+                        <img src="assets/images/mate1.png" alt="">
+                        <p class="saveur__framboise">
+                            Infusion de maté
+                            <br>
+                            <span class="bold">Saveur framboise</span>
+                        </p>
+                    </div>
+                    <div class="swiper-slide order3">
+                        <img src="assets/images/mate3.png" alt="">
+                        <p class="saveur__originale">
+                            Infusion de maté
+                            <br>
+                            <span class="bold">Saveur originale</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </main>
+        
+        <!-- swiper cdn script -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <!-- script - main.js -->
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>

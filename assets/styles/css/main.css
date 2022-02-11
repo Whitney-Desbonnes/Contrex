@@ -1,0 +1,291 @@
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("../../fonts/HelveticaNeueLTStd-HvCnO.eot") format("eot"), url("../../fonts/HelveticaNeueLTStd-HvCnO.otf") format("otf"), url("../../fonts/HelveticaNeueLTStd-HvCnO.ttf") format("ttf"), url("../../fonts/HelveticaNeueLTStd-HvCnO.woff") format("woff"), url("../../fonts/HelveticaNeueLTStd-HvCnO.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Helvetica-Light";
+  src: url("../../fonts/HelveticaNeueLTStd-LtCnO.eot") format("eot"), url("../../fonts/HelveticaNeueLTStd-LtCnO.otf") format("otf"), url("../../fonts/HelveticaNeueLTStd-LtCnO.ttf") format("ttf"), url("../../fonts/HelveticaNeueLTStd-LtCnO.woff") format("woff"), url("../../fonts/HelveticaNeueLTStd-LtCnO.woff2") format("woff2");
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica-Light", sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Helvetica-Bold";
+  display: block;
+  background-color: #c50b6c;
+  border-top: 3px solid #fff;
+  font-size: 1.8rem;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #c50b6c;
+  -webkit-box-shadow: 2px 2px 10px rgba(221, 52, 184, 0.479);
+          box-shadow: 2px 2px 10px rgba(221, 52, 184, 0.479);
+}
+
+.bold {
+  font-family: "Helvetica-Bold", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.header__container {
+  background-color: #c50b6c;
+  position: relative;
+}
+
+.header__container .image-desk {
+  display: none;
+}
+
+.header__container .header__contents {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__container .header__contents .header__logo {
+  width: 50%;
+  margin-top: 30px;
+}
+
+.header__container .header__contents .header__description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 5px rgba(88, 88, 88, 0.726);
+}
+
+.header__offre {
+  padding: 15px;
+  background-color: #c50b6c;
+  font-size: 1.7rem;
+}
+
+.header__offre .bon-reduc {
+  font-size: 2.1rem;
+}
+
+.content {
+  border-top: 2px solid #c50b6c;
+  position: relative;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.content .content__catch-word {
+  position: absolute;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.content .content__catch-word span {
+  background-color: #c50b6c;
+  padding: 8px;
+}
+
+.content .content__title {
+  margin-top: 45px;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.content .content__title .color__theme {
+  display: block;
+  color: #c50b6c;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.content .content__description {
+  text-transform: none;
+  margin-bottom: 25px;
+}
+
+.swiper {
+  width: 90%;
+}
+
+.swiper .swiper-slide {
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 25px;
+  font-size: 1.8rem;
+}
+
+.swiper .swiper-slide .saveur__citron {
+  color: #facc46;
+}
+
+.swiper .swiper-slide .saveur__framboise {
+  color: #c50b6c;
+}
+
+.swiper .swiper-slide .saveur__originale {
+  color: #30511e;
+}
+
+.swiper .swiper-slide--off {
+  width: 70%;
+}
+
+.swiper .swiper-slide--off .saveur__citron {
+  color: #facc46;
+}
+
+.swiper .swiper-slide--off .saveur__framboise {
+  color: #c50b6c;
+}
+
+.swiper .swiper-slide--off .saveur__originale {
+  color: #30511e;
+}
+
+.swiper .swiper-slide img {
+  display: block;
+  max-width: 250px;
+}
+
+.swiper .swiper-pagination {
+  bottom: 0;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background: #c50b6c !important;
+}
+
+.swiper .swiper-pagination .swiper-pagination-bullet {
+  border: 1px solid #c50b6c;
+  background: transparent;
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .header__container .image-mob {
+    display: none;
+  }
+  .header__container .image-desk {
+    display: block;
+  }
+  .header__container .header__contents {
+    background-color: rgba(255, 255, 255, 0.609);
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 50px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .header__container .header__contents .header__logo {
+    margin: 0 0 30px 0;
+  }
+  .header__container .header__contents .header__description {
+    font-size: 1.5rem;
+    color: #30511e;
+    text-shadow: none;
+  }
+  .header__container .header__contents .bloc1 .header__offre .bon-reduc {
+    font-size: 2rem;
+  }
+  .header__container .header__contents .bloc1 a {
+    width: 40%;
+    margin: 50px auto 0;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  .content .content__title {
+    margin-bottom: 100px;
+  }
+  .content .content__description {
+    display: none;
+  }
+  .swiper .swiper-wrapper .order1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .swiper .swiper-wrapper .order2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .swiper .swiper-wrapper .order3 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .header__container .header__contents {
+    left: auto;
+    margin: 0 50px 0 0;
+    width: 50%;
+  }
+  .header__container .header__contents .bloc1 .header__offre .bon-reduc {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=main.css.map */

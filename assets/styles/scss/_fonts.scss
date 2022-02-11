@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "Helvetica-Bold";
+    src: url("../../fonts/HelveticaNeueLTStd-HvCnO.eot") format("eot"),
+         url("../../fonts/HelveticaNeueLTStd-HvCnO.otf") format("otf"),
+         url("../../fonts/HelveticaNeueLTStd-HvCnO.ttf") format("ttf"),
+         url("../../fonts/HelveticaNeueLTStd-HvCnO.woff") format("woff"),
+         url("../../fonts/HelveticaNeueLTStd-HvCnO.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Helvetica-Light";
+    src: url("../../fonts/HelveticaNeueLTStd-LtCnO.eot") format("eot"),
+         url("../../fonts/HelveticaNeueLTStd-LtCnO.otf") format("otf"),
+         url("../../fonts/HelveticaNeueLTStd-LtCnO.ttf") format("ttf"),
+         url("../../fonts/HelveticaNeueLTStd-LtCnO.woff") format("woff"),
+         url("../../fonts/HelveticaNeueLTStd-LtCnO.woff2") format("woff2");
+}
+
+$helveticaLight : 'Helvetica-Light';
+$helveticaBold : 'Helvetica-Bold';
