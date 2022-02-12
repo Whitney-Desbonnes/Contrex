@@ -136,6 +136,10 @@ header {
         flex-direction: column;
         margin-bottom: 25px;
         font-size: 1.8rem;
+        img {
+            display: block;
+            max-width: 250px;
+        }
         .saveur__citron {
             color: $jaune;
         }
@@ -160,11 +164,6 @@ header {
         }
     }
 
-    .swiper-slide img {
-        display: block;
-        max-width: 250px;
-    }
-
     .swiper-pagination {
         bottom: 0;
         .swiper-pagination-bullet-active {
@@ -178,41 +177,4 @@ header {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @import './mediaqueries';
