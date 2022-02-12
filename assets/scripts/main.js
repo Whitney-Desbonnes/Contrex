@@ -35,7 +35,7 @@ function resizeSwiper () {
             swiperSlide[i].classList.add('swiper-slide--off');
         }
     }
-    else if (window.innerWidth <= 768) {
+    else if (window.innerWidth <= 767) {
         for (i=0; i < swiperSlide.length; i++) {
             swiperSlide[i].classList.add('swiper-slide');
             swiperSlide[i].classList.remove('swiper-slide--off');
