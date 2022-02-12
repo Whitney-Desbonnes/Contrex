@@ -130,6 +130,7 @@ header {
 // swiper style
 .swiper {
     width: 90%;
+    margin-bottom: 50px;
     .swiper-slide {
         background: #fff;
         @include centrerBloc();

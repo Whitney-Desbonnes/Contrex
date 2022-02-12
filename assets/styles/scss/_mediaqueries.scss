@@ -64,6 +64,7 @@
                     margin: 50px auto 0;
                     font-size: 1.2rem;
                     padding: 5px;
+                    border: none;
                     &:hover {
                         background-color: #fff;
                         color: $rose;
@@ -90,6 +91,7 @@
     .swiper {
         width: 70%;
         .swiper-wrapper {
+            justify-content: center;
             .order1 {
                 order: 2;
             }
